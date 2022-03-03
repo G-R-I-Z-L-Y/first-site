@@ -36,7 +36,7 @@ body{
     background-color: #6a338ad2;
     line-height: 16px;
     padding: 10px 0;
-    max-width: 100%;
+    width: 1980px;
 }
 
 .header__content{
@@ -46,7 +46,7 @@ body{
 .menu li{
     display: inline-block;
     font-size: 18px;
-
+    line-height: 36px;
 }
 .header__content--inner{
     display: flex;
@@ -80,6 +80,9 @@ body{
     margin: 0px 15px 0 15px;
     transition: 0.2s;
     line-height: 27px;
+}
+.button--third{
+    float: right;
 }
 .button_line{
     position: absolute;
@@ -143,4 +146,14 @@ body{
     background-color: aqua;
     color: #303030;
     transition-delay: 0.5s;
+}
+
+
+
+
+
+
+
+.menu_li{
+
 }
