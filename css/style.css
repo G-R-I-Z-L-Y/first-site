@@ -204,3 +204,76 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.nav-item {
+    position: relative;
+    border: 1px solid #303030;
+    border-top: none;
+    border-bottom: none;
+    width: 240px;
+
+}
+
+.nav-item:hover > .subnav {
+    display: block;
+}
+  
+.nav-link {
+    display: block;
+    padding: 8px 16px;
+    
+    background-color: bisque;
+    
+    color: #303030;
+    text-decoration: none;
+}
+  
+.nav-link:hover {
+    background-color: rgb(241, 190, 127);
+}
+
+.subnav {
+    display: none;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    font-size: 14px;
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+} 
+.subnav-link {
+    display: block;
+    padding: 8px 16px;
+    
+    background-color: bisque;
+    
+    color: #303030;
+    text-decoration: none;
+}
+  
+.subnav-link:hover {
+   
+    background-color: rgb(241, 190, 127);
+}
